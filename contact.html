@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Homepage</title>
+    <title>Contact</title>
     <link href="css/style.css" rel="stylesheet">
 </head>
 <body>
-    <header>
+     <header>
         <img src="images/Primary-White.svg" alt="">
     </header>
 
@@ -20,22 +20,25 @@
   </ul>
 </nav>
 
-<nav class="mcastImg"> 
-  <img src="images/MCAST-entrance.jpg" alt="">
-</nav>
+<div class="contact-form">
+  <form action="https://api.web3forms.com/submit" method="POST" class="contact-left" onsubmit="addUUID()">
+    
+    <div class="contact-left-title">
+      <h2>Get in touch!</h2>
+    </div>
+    <input type="hidden" name="access_key" value="feb74575-1ed5-439b-a114-14b1afb7f137">
+    <input type="hidden" name="submission_id" id="uuid-field">
+    <input type="text" name="name" placeholder="Name" class="contact-input" required>
+    <input type="email" name="email" placeholder="Email" class="contact-input" required>
+    <textarea name="message" placeholder="Message" class="contact-input" required></textarea>
+    
+    <button type="submit">Submit</button>
+  </form>
 
-<div class="apply ">
-<h2>How to Apply</h2>
+  <div class="contact-right"></div>
 </div>
 
-<h1>Here's what we offer! </h1>
- 
-<div class="container">
-  <div class="box">Full-time Courses</div>
-  <div class="box">Part-time Courses</div>
-</div>
-
-  <footer class="footer">
+<footer class="footer">
     <div>
       <h4>📍 Location</h4>
       <a href="#">Mosta</a>
@@ -73,6 +76,7 @@
       © Copyright 2025
     </div>
   </footer>
+
 
 </body>
 </html>

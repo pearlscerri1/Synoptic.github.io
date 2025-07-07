@@ -3,7 +3,7 @@ body{
 }
 
 header{
-    background-color: #200D77;
+    background-color: #0A0C6B;
     width: 100%;
     height: 250px;
 }
@@ -48,7 +48,7 @@ header img{
 }
 
  .footer {
-      background-color: #200D77;
+      background-color: #0A0C6B;
       color: white;
       padding: 30px 20px;
       display: flex;
@@ -113,7 +113,7 @@ header img{
 
 .apply h2{
     background-color: #8AE53E;
-    color: #200D77;
+    color: #0A0C6B;
     width: fit-content;
     margin: 50px auto;
     padding: 10px 20px;
@@ -123,7 +123,7 @@ header img{
 }
 
 .apply h2:hover{
-  background-color: #200D77;
+  background-color: #0A0C6B;
   color: #ffff;
   transform: scale(1.05);
   box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
@@ -131,7 +131,7 @@ header img{
 
 h1{
     text-align: center;
-    color: #200D77;
+    color: #0A0C6B;
     padding-top: 30px;
     font-size: 45px;
     font-family: Arial, Helvetica, sans-serif;
@@ -151,7 +151,7 @@ h1{
 .box {
   width: 180px;
   height: 180px;
-  background-color: #200D77;
+  background-color: #0A0C6B;
   color: #FF6200;
   display: flex;
   align-items: center;
@@ -168,7 +168,7 @@ h1{
 
 .box:hover {
   background-color: #8AE53E;
-  color: #200D77;
+  color: #0A0C6B;
   transform: scale(1.05);
   box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
   cursor: pointer}
@@ -201,7 +201,7 @@ h1{
 
     .contact-left-title h2{
       font-weight: 600;
-      color: #1d0069;
+      color: #0A0C6B;
       font-size: 40px;
       margin-bottom: 5px;
      
@@ -235,7 +235,7 @@ h1{
       border-radius: 15px;
       font-size: 16px;
       color: #ffff;
-      background-color: #200D77;
+      background-color: #0A0C6B;
     }
 
 
@@ -257,7 +257,7 @@ h1{
 
     .textbox{
     background-color: #ffffff;
-    color: #200D77;
+    color: #0A0C6B;
     text-align: justify;
     font-family: Arial, Helvetica, sans-serif;
 
@@ -280,7 +280,7 @@ h1{
       padding-top: 100px;
       padding-bottom: 150px;
       width: 800px;
-      color: #200D77;
+      color: #0A0C6B;
       
       
     }
@@ -307,7 +307,7 @@ h1{
       margin-left: 650px;
       padding: 20px;
       width: 500px;
-      color: #200D77;
+      color: #0A0C6B;
       background-color: #ffffff;
       box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
 
@@ -327,7 +327,7 @@ h1{
       margin-bottom: 100px;
       padding: 20px;
       width: 500px;
-      color: #200D77;
+      color: #0A0C6B;
       background-color: #ffffff;
       box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
     }
@@ -338,7 +338,7 @@ h1{
 
     h2{
       font-family: Arial, Helvetica, sans-serif;
-      color: #200D77;
+      color: #0A0C6B;
       font-size: 30px;
       text-align: center;
     }
